@@ -1,0 +1,16 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "proxy-server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn index.ts"
+  },
+  "author": "SAK74",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
