@@ -4,7 +4,8 @@
   "description": "proxy-server",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --respawn server.ts"
+    "dev": "tsnd --respawn server.ts",
+    "build": "tsc"
   },
   "author": "SAK74",
   "license": "ISC",
