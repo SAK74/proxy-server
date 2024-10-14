@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "proxy-server",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "tsnd --respawn server.ts"
+  },
   "author": "SAK74",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.7.5",
     "@vercel/node": "^3.2.23",
     "ts-node-dev": "^2.0.0",
@@ -16,6 +19,7 @@
     "node": "20.x"
   },
   "dependencies": {
-    "@vercel/functions": "^1.4.2"
+    "@vercel/functions": "^1.4.2",
+    "express": "^4.21.1"
   }
 }
